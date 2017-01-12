@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/styles.less"/>
+</head>
+<body>
+<comment-box class="watever-class"></comment-box>
+<script src="js/less.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="riot/tag" src="tags/comments.tag"></script>
+<script src="https://cdn.jsdelivr.net/g/riot@2.2.4(riot.min.js+compiler.min.js)"></script>
+<script>riot.mount('comment-box', {title: 'Comments', url: '/comments.json', interval: 2000})</script>
+</body>
+</html>
